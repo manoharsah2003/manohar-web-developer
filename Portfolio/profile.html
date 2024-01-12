@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PROFILE</title>
+        <style>
+            body{ background-color: aquamarine;}
+            div{ margin-left: auto; margin-right: auto; text-align: center;}
+            img{ display: block;margin-left: auto;margin-right: auto; border-radius: 50px; height:200px; width:200px;}
+            h1, h2, b{ font-family: 'Segoe UI'; text-align: center;}
+            p, td{ font-family: 'Segoe UI'; text-align: center;}
+            .navbar{width: 85%; margin: auto; padding: 35px 0; display: flex; align-items: center; justify-content: space-between;}
+            .logo{width: 120px; cursor: pointer;}
+            .navbar ul li{list-style: none; display: inline-block; margin: 0 20px; position: relative;}
+            .navbar ul li a{text-decoration: none; text-transform: uppercase; color: black;}
+            a{text-decoration: none; color: white;}
+            .navbar ul li::after{content: ''; height: 1.5px; width: 0%; background: rgb(100, 100, 100); position: absolute; left: 0; bottom: -1px; transition: 0.5s;}
+            .navbar ul li:hover::after{width: 100%;}
+            .profile, .Summary, .contact {display: block; margin-left: auto; margin-right: auto; width: 50%;}
+            .Summary{display: block; margin-left: auto; margin-right: auto; width: 55%; border-radius: 130px; height: 130px; color: white; background-color: rgb(40, 40, 40);}
+            .details{display: block; margin-left: auto; margin-right: auto; width: 30%; border-radius: 25px; height: 235px; color: white; background-color: rgb(40, 40, 40);}
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <h1 class="logo">Profile</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Portfolio</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="profile">
+            <h1>PROFILE</h1>
+            <p><b>Web Developer and Photographer.</b></p>
+        </div>
+        <img  src="Manohar_Sah photo.jpg">
+            <div class="Summary">
+            <h2>About Me</h2>
+            <p>I'm final year student currently pursuing bachelor's degree in computer science and engineering with an excellent knowledge in web development and web designing. My hobby is to take photographs and try adventurous things. Looking for a job opportunity as a Web Developer.</p>
+        </div>
+        <br/>
+        <div class="details">
+            <h2>PROFILE</h2>
+            <table align="center">
+                <tr>
+                    <td style="width: 200px; height: 25px;"><b>Name</b></td>
+                    <td style="width: 200px; height: 25px;">Manohar Sah</td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; height: 25px;"><b>Age</b></td>
+                    <td style="width: 200px; height: 25px;">21 Years</td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; height: 25px;"><b>Location</b></td>
+                    <td style="width: 200px; height: 25px;">Coimbatore, TamilNadu</td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; height: 25px;"><b>Project</b></td>
+                    <td style="width: 200px; height: 25px;"><a href="laptop/laptopindex.html">Laptop</a> </td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; height: 25px; vertical-align: top;" rowspan="3"><b>Skills</b></td>
+                    <td style="width: 200px; height: 25px;">Web Designing</td>
+                </tr>
+                <tr>
+                    <td style="width: 200px; height: 25px;">Python Programming</td>
+                </tr>
+                
+            </table>
+        </div>
+        <br><br>
+        
+    </body>
+</html>
